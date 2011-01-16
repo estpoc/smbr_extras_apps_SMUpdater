@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+	<!-- .ui.* strings -->
+	<string name="apply_now_button_text">Now</string>
+	<string name="apply_later_button_text">Later</string>
+	<string name="apply_update_button_text">Apply update</string>
+	<string name="apply_title_textview_text">{0} is ready to be applied</string>
+	<string name="apply_subtitle_textview_text">Release notes:</string>
+	<string name="apply_unable_to_reboot_toast">Unable to reboot into recovery</string>
+	<string name="apply_trying_to_get_root_access">Trying to get root access to reboot in recovery mode</string>
+
+	<string name="available_updates_text">Select the ROM</string>
+	<string name="choose_available_update_text">Download update</string>
+	<string name="no_updates_found_instructions">No ROMs found.\nPress \'Check now\' to manually check for new updates</string>
+	<string name="downloaded_update_found_text">Updates found</string>
+	<string name="checking_for_updates">Checking for updates</string>
+	<string name="downloading_update">Downloading update</string>
+	<string name="sdcard_is_not_present_dialog_body">You will need a writable sd card to download this update</string>
+	<string name="sdcard_is_not_present_dialog_title">No sdcard found</string>
+	<string name="sdcard_is_not_present_dialog_ok_button">Ok</string>
+	<string name="current_version_text">Running version: {0}</string>
+	<string name="delete_updates_text">Delete updates</string>
+	<string name="delete_updates_success_message">Update folder deleted</string>
+	<string name="delete_updates_failure_message">There was an error deleting the update folder</string>
+	
+
+	<string name="apply_update_dialog_title">Confirmation</string>
+	<string name="apply_update_dialog_text">You are about to upgrade to {0}.\nIf you press update, the phone will restart itself in recovery mode to apply the update.</string>
+	<string name="apply_update_dialog_update_button">Update</string>
+	<string name="apply_update_dialog_backup_and_update_button">Backup &amp; apply</string>
+	<string name="apply_update_dialog_cancel_button">Cancel</string>
+	
+	<string name="no_updates_no_mod_text">Your system is running an unsupported os mod (version {0}).</string>
+	<string name="check_now_button_text">Check now</string>
+	
+	<string name="menu_check_now">Check now</string>
+	<string name="menu_config">Configuration</string>
+	<string name="menu_about">About</string>
+	<string name="menu_changelog">Changelog</string>
+	
+	<string name="cancel_download_buton_text">Cancel download</string>
+	<string name="confirm_download_cancelation_dialog_message">Are you sure you want to cancel the current download? You can resume it later, by downloading the same update again.</string>
+	<string name="confirm_download_cancelation_dialog_yes">Yes</string>
+	<string name="confirm_download_cancelation_dialog_no">No</string>
+	<string name="download_canceled_toast_message">Download cancelled</string>
+
+	<string name="verify_and_apply_dialog_title">Verifying</string>
+	<string name="verify_and_apply_dialog_message">Verifying update MD5 sum</string>
+
+	<string name="apply_existing_update_md5error_message">Error. MD5 checksum mismatch</string>
+
+	<string name="apply_upload_info_message">THIS VERSION OF THE UPDATER HAS THE REBOOT OPTION ENABLED, CLICKING ON APPLY NOW WILL ACTUALLY DO SO. PLEASE REBOOT MANUALLY INTO RECOVERY BEFORE APPLYING THIS UPDATE IF YOU WANT TO PERFORM A BACKUP.</string>
+
+	<string name="last_update_check_text">Last update check</string>
+	<string name="overwrite_update_title">Update exists</string>
+	<string name="overwrite_update_summary">The selected update already exists in your update folder.\nWould you like to overwrite it?</string>
+	<string name="overwrite_update_positive">Yes</string>
+	<string name="overwrite_update_negative">No</string>
+
+	<string name="no_md5_found_title">No MD5 found</string>
+	<string name="no_md5_found_summary">No MD5 file according to the update was found.\nDo you want to apply it without checking?</string>
+	<string name="no_md5_found_positive">Apply</string>
+	<string name="no_md5_found_negative">Cancel</string>
+
+	<string name="notification_tickertext">Downloading update</string>
+	<string name="notification_finished">Download finished</string>
+
+	
+
+	<string name="stable_description"> = Stable</string>
+	<string name="experimental_description"> = Experimental</string>
+
+	<string name="changelog_progress_title">Please wait...</string>
+	<string name="changelog_progress_body">Trying to download the changelog.xml</string>
+
+	<string name="changelog_button_text">List of changes</string>
+	<string name="no_changelog_found">No changelog found</string>
+
+	<string name="changelog_title_rom">Update changelog</string>
+	<string name="changelog_title_app">Application changelog</string>
+
+	<string name="true_string">yes</string>
+	<string name="false_string">no</string>
+	
+	<string name="md5_check_cancelled">MD5 check was cancelled</string>
+	
+	<string name="button_available_updates">ROMs</string>
+	<string name="button_existing_updates">Existing</string>
+	
+	<string name="no_existing_updates_found">No existing updates found</string>
+
+	<string name="title_running">running on</string>
+	
+	<string name="no_updatecheck_executed">none</string>
+	
+	<string name="delete_updates_root_folder_message">You can not delete the root folder\nPlease delete the updates one by one</string>
+
+	<string name="about_dialog_title">About</string>
+	
+	<string name="barcode_scan_no_result">No result was received. Please try again.</string>
+	
+	<!-- .service.* strings -->
+	<string name="no_updates_found">No updates found</string>
+	<string name="not_new_updates_found_ticker">New updates found!</string>
+	<string name="not_new_updates_found_title">New updates found</string>
+
+	<string name="exception_while_downloading">An error occurred while trying to download an update</string>
+
+	<string name="not_update_check_error_ticker">Check for updates failed</string>
+	<string name="not_update_check_error_title">Unable to check for new updates</string>
+
+	<string name="not_update_download_error_ticker">An error occurred while downloading the update</string>
+	<string name="not_update_download_error_title">An error occurred while downloading the update</string>
+
+	<string name="not_update_downloaded_ticker">Update downloaded</string>
+	<string name="not_update_downloaded_title">Update downloaded</string>
+	
+
+	<string name="download_info_filename">Filename: </string>
+	<string name="download_info_mirror">Server: </string>
+	<string name="download_info_downloading">Downloading...</string>
+	<string name="download_info_speed">Speed: </string>
+	<string name="download_info_remaining_time">Remaining time: </string>
+
+	<string name="confirm_delete_update_folder_dialog_message">Delete update folder?</string>
+	<string name="confirm_delete_update_folder_dialog_yes">Delete all</string>
+	<string name="confirm_delete_update_folder_dialog_neutral">Delete update</string>
+	<string name="confirm_delete_update_folder_dialog_no">Cancel</string>
+	<string name="delete_single_update_success_message">Update {0} deleted</string>    
+
+	<string name="minutes">min</string>
+	<string name="seconds">sec</string>
+	
+	<string name="unable_to_download_file">Unable to download the update file from any mirror</string>
+	<string name="md5_verification_failed">MD5 verification failed</string>
+
+	<!-- preferences strings -->
+	<string name="p_update_check_freq_title">Update checking frequency</string>
+	<string name="p_update_check_freq_summary">Set update checking frequency</string>
+
+	<string name="p_display_older_rom_versions_title">Display all ROM updates</string>
+	<string name="p_display_older_rom_versions_summary">Display all ROM updates, including old versions</string>
+	<string name="p_display_older_rom_versions_changed">Please check for updates again, to update the list of available updates</string>
+
+	<string name="p_allow_experimental_rom_versions_title">Display experimental ROMs</string>
+	<string name="p_allow_experimental_rom_versions_summary">Display ROM updates that are experimental (non-stable)</string>
+	<string name="p_allow_experimental_rom_versions_changed">Please check for updates again, to update the list of available updates</string>
+
+	<string name="p_do_nandroid_backup_title">Nandroid backup</string>
+	<string name="p_do_nandroid_backup_summary">Create nandroid backup before applying update?</string>
+
+	<string name="p_notification_ringtone_title">Notification ringtone</string>
+	<string name="p_notification_ringtone_summary">Choose a ringtone for updater alerts</string>
+
+	<string name="p_update_file_url_title">ROM update server</string>
+	<string name="p_update_file_url_summary">Change the ROM update server</string>
+	<string name="p_update_file_url_changed">ROM update URL set back to default</string>
+
+	<string name="p_update_file_url_def_title">Reset ROM update server</string>
+	<string name="p_update_file_url_def_summary">Reset the location of the ROM update server back to default</string>
+
+	<string name="p_update_file_url_qr_title">Scan barcode</string>
+	<string name="p_update_file_url_qr_summary">Scan QR code for ROM update file URL</string>
+	<string name="p_update_file_changed_toast">ROM update file URL: </string>
+
+	<string name="p_vibrate_title">Vibrate</string>
+	<string name="p_vibrate_summary">Vibrate on notifications</string>
+
+	<string name="p_notifications_title">Notifications</string>
+	<string name="p_notifications_summary">Enable/disable notifications</string>
+
+	<string name="p_progress_update_frequency_title">Progress update frequency</string>
+	<string name="p_progress_update_frequency_summary">Higher values = less updating\nLower values = more updating</string>
+
+	<string name="p_progress_update_freq_def_title">Reset update frequency</string>
+	<string name="p_progress_update_freq_def_summary">Reset the update frequency of the download dialog/notification bar</string>
+	<string name="p_progress_update_freq_def_toast">Progress update frequency set back to default</string>
+	
+	<string name="p_invalid_url">Entered URL is not valid! please try again.</string>
+	
+	<string name="p_notifications_screen_title">Notifications</string>
+	<string name="p_notifications_screen_summary">Set notification settings</string>
+	
+	<string name="p_rom_screen_title">ROM update settings</string>
+	<string name="p_rom_screen_summary">Set settings for ROM updates</string>
+	
+	<string name="p_barcode_scan_failure">There was an error while scanning the barcode</string>
+	
+	<string name="p_advanced_screen_title">Advanced settings</string>
+	<string name="p_advanced_screen_summary">Set advanced settings</string>
+	
+	<string name="p_update_folder_title">Update folder</string>
+	<string name="p_update_folder_summary">Set the update folder\nset blank for root-directory</string>
+	
+	<string name="p_update_folder_def_title">Reset update folder</string>
+	<string name="p_update_folder_def_summary">Set the update folder back to default</string>
+	<string name="p_update_folder_def_toast">Update folder set back to default</string>
+	<string name="p_update_folder_error">Error on setting the updatefolder</string>
+	
+
+	<!--  new strings -->
+	<string name="alert_old_version_title">Old version</string>
+	<string name="alert_old_version_summary">You are running an old ROM version. to use the updater, you have to upgrade manually. click the open browser button to open up the instructions</string>
+	<string name="alert_old_version_ok">Ok</string>
+	<string name="alert_old_version_browser">Open browser</string>
+	<string name="download_resume_not_supported">Resume not supported by server</string>
+	<string name="download_resume_download">Resuming download</string>
+	<string name="download_not_enough_space">Not enough space on sdcard to download the udpate</string>
+	<string name="p_debug_output_title">Debug output</string>
+	<string name="p_debug_output_summary">Show debug output in logcat</string>
+	<string name="p_debug_output_changed">Please restart the app for the changes to take effect</string>
+	<string name="sdcard_not_avail">No sdcard present or phone mounted to pc. You need a writeable sdcard to procedd. The app will now exit</string>
+	<string name="p_update_file_url_screen_title">Update server</string>
+    <string name="p_update_file_url_screen_summary">Change update server</string>
+
+    
+	<string name="delete_updates_noFolder_message">Update folder not found</string>
+    <string name="toast_uninstall_old_Version">You have to uninstall any old version of the app to proceed!</string>
+	<string name="app_name">Updater</string>
+</resources>
